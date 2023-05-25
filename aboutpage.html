@@ -1,0 +1,82 @@
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> AboutPage </title>
+
+<style>
+		#background-video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.wrapper {
+  padding: 2rem;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.1px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+p {
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: Lucida Bright;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+h1 {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+a {
+  color: black;
+  background: rgba(255, 255, 255, 0.11);
+}
+
+body {
+  background-color: #d27434;
+  background-image: linear-gradient(147deg, #F9C067, #DB6816, #DDA15E);
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .wrapper {
+    margin: 10px;
+  }
+}
+
+		
+</style>
+</head>
+
+<body>
+<video id="background-video" autoplay loop muted>
+		<source src="EJJ.mp4">
+	</video>
+	<br><br>
+	<div class="wrapper">
+	<center>
+		<br><br>
+	<h1 style="font-size:60px;color:brown"> SEASONS </h1>
+	<p style="font-size:20px;"> This machine learning software is a Season detector system. <br>
+	A system that can determine if a particular image is whether a Summer, Spring, Autumn, or Winter.</p> 
+	<p style="font-size:15px;"> It is made by Team_Seasons, a group of four BSCS third year students.</p>
+	<a href="classifier.html" target="main" style="font-size:20px;">Open Classifier</a>
+	</center>
+	</div>
+</body>
+</html>
+	
